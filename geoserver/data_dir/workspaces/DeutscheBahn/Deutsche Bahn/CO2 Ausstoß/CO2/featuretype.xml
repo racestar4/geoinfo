@@ -1,0 +1,44 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-65f81c5e:1732840c652:-7bfd</id>
+  <name>CO2 Ausstoß/Jahr (Stand 2014)</name>
+  <nativeName>CO2_WTW_FPL2014_EiD</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-34bf4ee9:172bd3a4637:-6bbd</id>
+  </namespace>
+  <title>CO2 Ausstoß/Jahr (Stand 2014)</title>
+  <keywords>
+    <string>features</string>
+    <string>CO2_WTW_FPL2014_EiD</string>
+  </keywords>
+  <srs>EPSG:5677</srs>
+  <nativeBoundingBox>
+    <minx>3280000.0</minx>
+    <maxx>3920000.0</maxx>
+    <miny>5240000.0</miny>
+    <maxy>6110000.0</maxy>
+    <crs class="projected">EPSG:5677</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>3280000.0</minx>
+    <maxx>3920000.0</maxx>
+    <miny>5240000.0</miny>
+    <maxy>6110000.0</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-34bf4ee9:172bd3a4637:-6bb9</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,35 @@
+<settings>
+  <id>SettingsInfoImpl-34bf4ee9:172bd3a4637:-6bba</id>
+  <workspace>
+    <id>WorkspaceInfoImpl-34bf4ee9:172bd3a4637:-6bbe</id>
+    <name>DeutscheBahn</name>
+    <isolated>false</isolated>
+    <dateCreated>2020-06-16 13:11:49.587 UTC</dateCreated>
+    <dateModified>2020-06-16 14:17:38.611 UTC</dateModified>
+  </workspace>
+  <contact>
+    <id>contact</id>
+    <addressCity>Alexandria</addressCity>
+    <addressCountry>Egypt</addressCountry>
+    <addressType>Work</addressType>
+    <contactOrganization>noo</contactOrganization>
+    <contactPerson>Jannick</contactPerson>
+    <contactPosition>Chief Geographer</contactPosition>
+  </contact>
+  <charset>UTF-8</charset>
+  <numDecimals>8</numDecimals>
+  <onlineResource>http://geoserver.org</onlineResource>
+  <verbose>false</verbose>
+  <verboseExceptions>false</verboseExceptions>
+  <metadata>
+    <map>
+      <entry>
+        <string>quietOnNotFound</string>
+        <boolean>false</boolean>
+      </entry>
+    </map>
+  </metadata>
+  <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
+  <showCreatedTimeColumnsInAdminList>false</showCreatedTimeColumnsInAdminList>
+  <showModifiedTimeColumnsInAdminList>false</showModifiedTimeColumnsInAdminList>
+</settings>

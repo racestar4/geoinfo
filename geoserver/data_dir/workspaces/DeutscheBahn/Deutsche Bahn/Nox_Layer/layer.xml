@@ -1,0 +1,18 @@
+<layer>
+  <name>Nox_Layer</name>
+  <id>LayerInfoImpl-65f81c5e:1732840c652:-7fd8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-65f81c5e:1732840c652:-7fd6</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-65f81c5e:1732840c652:-7fd9</id>
+  </resource>
+  <opaque>true</opaque>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2020-07-08 08:36:45.329 UTC</dateCreated>
+  <dateModified>2020-07-09 13:22:24.797 UTC</dateModified>
+</layer>

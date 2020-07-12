@@ -1,0 +1,17 @@
+<layer>
+  <name>geschw_layer</name>
+  <id>LayerInfoImpl--63e23941:173398b718f:-7f46</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-65f81c5e:1732840c652:-7f1a</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--63e23941:173398b718f:-7f47</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2020-07-11 13:15:42.803 UTC</dateCreated>
+  <dateModified>2020-07-11 13:22:27.128 UTC</dateModified>
+</layer>

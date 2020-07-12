@@ -1,0 +1,17 @@
+<layer>
+  <name>Elektrifizierung</name>
+  <id>LayerInfoImpl-34bf4ee9:172bd3a4637:-6bb3</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-65f81c5e:1732840c652:-7f1b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-34bf4ee9:172bd3a4637:-6bb4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2020-06-16 13:20:24.228 UTC</dateCreated>
+  <dateModified>2020-07-08 12:37:44.444 UTC</dateModified>
+</layer>

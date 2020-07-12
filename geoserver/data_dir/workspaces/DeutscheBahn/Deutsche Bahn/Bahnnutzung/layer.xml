@@ -1,0 +1,23 @@
+<layer>
+  <name>Bahnnutzung</name>
+  <id>LayerInfoImpl-34bf4ee9:172bd3a4637:-6bb7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-65f81c5e:1732840c652:-7ffa</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-65f81c5e:1732840c652:-7ffa</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-34bf4ee9:172bd3a4637:-6bb8</id>
+  </resource>
+  <opaque>true</opaque>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2020-06-16 13:15:58.28 UTC</dateCreated>
+  <dateModified>2020-07-08 09:25:35.438 UTC</dateModified>
+</layer>

@@ -1,0 +1,33 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-65f81c5e:1732840c652:-7ffc</id>
+  <name>db</name>
+  <mode>SINGLE</mode>
+  <workspace>
+    <id>WorkspaceInfoImpl-34bf4ee9:172bd3a4637:-6bbe</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-34bf4ee9:172bd3a4637:-6bb7</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-34bf4ee9:172bd3a4637:-6bb3</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe3</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>6.021351</minx>
+    <maxx>15.031985</maxx>
+    <miny>47.397782</miny>
+    <maxy>54.907633</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2020-07-07 12:08:23.208 UTC</dateCreated>
+  <dateModified>2020-07-11 13:22:48.504 UTC</dateModified>
+</layerGroup>

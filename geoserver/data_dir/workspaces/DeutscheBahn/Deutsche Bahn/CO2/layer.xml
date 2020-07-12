@@ -1,0 +1,17 @@
+<layer>
+  <name>CO2</name>
+  <id>LayerInfoImpl-65f81c5e:1732840c652:-7bfc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-65f81c5e:1732840c652:-7bfb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-65f81c5e:1732840c652:-7bfd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2020-07-09 11:09:35.316 UTC</dateCreated>
+  <dateModified>2020-07-09 11:53:31.295 UTC</dateModified>
+</layer>

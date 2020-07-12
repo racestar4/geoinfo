@@ -1,0 +1,65 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-65f81c5e:1732840c652:-7fd9</id>
+  <name>Nox_Layer</name>
+  <nativeName>Nox_Layer</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-34bf4ee9:172bd3a4637:-6bbd</id>
+  </namespace>
+  <title>Nox_Layer</title>
+  <keywords>
+    <string>features</string>
+    <string>Nox_Layer</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;DHDN / 3-degree Gauss-Kruger zone 3 (E-N)&quot;, 
+  GEOGCS[&quot;DHDN&quot;, 
+    DATUM[&quot;Deutsches Hauptdreiecksnetz&quot;, 
+      SPHEROID[&quot;Bessel 1841&quot;, 6377397.155, 299.1528128, AUTHORITY[&quot;EPSG&quot;,&quot;7004&quot;]], 
+      TOWGS84[612.4, 77.0, 440.2, -0.054, 0.057, -2.797, 2.55], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6314&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4314&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 9.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;false_easting&quot;, 3500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;5677&quot;]]</nativeCRS>
+  <srs>EPSG:5677</srs>
+  <nativeBoundingBox>
+    <minx>3280000.0</minx>
+    <maxx>3920000.0</maxx>
+    <miny>5240000.0</miny>
+    <maxy>6110000.0</maxy>
+    <crs class="projected">EPSG:5677</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>5.554421333808831</minx>
+    <maxx>15.557385874889402</maxx>
+    <miny>47.164474820602045</miny>
+    <maxy>55.11860516580604</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-34bf4ee9:172bd3a4637:-6bb9</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,58 @@
+\documentclass{article}
+
+
+\usepackage[left=2.5cm,right=2.5cm,top=3.5cm,bottom=4cm]{geometry}
+
+\usepackage{ucs}
+\usepackage[ngerman]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{siunitx}
+\usepackage{listings}
+\usepackage{setspace}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\definecolor{forestgreen}{RGB}{34,139,34}
+\usepackage{subcaption}
+\captionsetup[subcaption]{list=true}
+
+\usepackage[backend=bibtex,sorting=none]{biblatex}
+
+
+\begin{document}
+
+\begin{titlepage}
+        \begin{center}
+                {\scshape\LARGE Hochschule Bremen \par}
+                \vspace{1cm}
+                {\scshape\Large Fakultät 4 \par}
+                \vspace{1cm}
+                {\Large\itshape Schienennetz der Deutschenbahn in Openlayer mit Blick auf Schadstoffausstoß\par}
+                \vspace{1cm}
+                {\rmfamily\large  Geodatenverarbeitung \par}
+                {\rmfamily\large  Dr.-Ing. Christian Seip\par}
+                \vspace{2cm}
+                {\large
+                        \begin{tabular}{ll}
+                        Jannick Bock & 5124529\\
+                \end{tabular}
+                }
+        \end{center}
+        \vfill
+\end{titlepage}
+
+\pagebreak
+\tableofcontents
+\pagebreak
+\input{chapters/Einleitung}
+\input{chapters/Datenbeschaffung}
+\input{chapters/Geoserver}
+\input{chapters/Webapp}
+\input{chapters/Fazit}
+\addcontentsline{toc}{chapter}{Listings}
+\lstlistoflistings
+\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+\listoffigures
+\printbibliography
+\end{document}

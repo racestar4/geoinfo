@@ -1,0 +1,17 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{2}
+\contentsline {section}{\numberline {2}Datenbeschaffung}{2}
+\contentsline {subsection}{\numberline {2.1}Beschreibung der Daten}{2}
+\contentsline {subsubsection}{\numberline {2.1.1}Streckennetz}{2}
+\contentsline {subsubsection}{\numberline {2.1.2}Schadstoffdaten}{2}
+\contentsline {subsection}{\numberline {2.2}Aufbereitung der Daten}{2}
+\contentsline {section}{\numberline {3}Aufsetzen eines Geoservers}{2}
+\contentsline {subsection}{\numberline {3.1}Einrichtung}{2}
+\contentsline {subsection}{\numberline {3.2}Styling}{2}
+\contentsline {section}{\numberline {4}Webapp mit Openlayer}{2}
+\contentsline {subsection}{\numberline {4.1}WMS Server}{2}
+\contentsline {subsection}{\numberline {4.2}Legende Anzeige}{2}
+\contentsline {section}{\numberline {5}Fazit}{2}
+\contentsline {chapter}{Listings}{2}
+\contentsline {chapter}{Abbildungsverzeichnis}{2}
