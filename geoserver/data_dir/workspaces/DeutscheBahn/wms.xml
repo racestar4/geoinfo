@@ -1,5 +1,5 @@
 <wms>
-  <id>WMSInfoImpl-34bf4ee9:172bd3a4637:-6bbb</id>
+  <id>WMSInfoImpl-643dc3cb:1734d96f13b:-7ffc</id>
   <workspace>
     <id>WorkspaceInfoImpl-34bf4ee9:172bd3a4637:-6bbe</id>
   </workspace>
@@ -29,25 +29,8 @@
   <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
   <verbose>false</verbose>
   <metadata>
-    <entry key="disableDatelineWrappingHeuristic">false</entry>
-    <entry key="kmlSuperoverlayMode">auto</entry>
-    <entry key="kmlReflectorMode">refresh</entry>
-    <entry key="loopContinuously">false</entry>
-    <entry key="svgAntiAlias">true</entry>
-    <entry key="rootLayerInCapabilities">true</entry>
-    <entry key="kmlPlacemark">false</entry>
-    <entry key="kmlKmscore">40</entry>
-    <entry key="mapWrapping">true</entry>
-    <entry key="pngCompression">25</entry>
-    <entry key="jpegCompression">25</entry>
-    <entry key="advancedProjectionDensification">false</entry>
-    <entry key="advancedProjectionHandling">true</entry>
-    <entry key="maxAllowedFrames">2147483647</entry>
-    <entry key="kmlAttr">true</entry>
     <entry key="svgRenderer">Batik</entry>
-    <entry key="disposalMethod">none</entry>
-    <entry key="scalehintMapunitsPixel">false</entry>
-    <entry key="framesDelay">1000</entry>
+    <entry key="svgAntiAlias">true</entry>
   </metadata>
   <bboxForEachCRS>false</bboxForEachCRS>
   <watermark>

@@ -6,9 +6,9 @@
       <se:Name>geschw_layer</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:Name> 50.0000 - 100.0000 Km/H</se:Name>
+          <se:Name> 50 - 100 Km/H</se:Name>
           <se:Description>
-            <se:Title> 50.0000 - 100.0000 Km/H</se:Title>
+            <se:Title> 50 - 100 Km/H</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
@@ -32,9 +32,9 @@
           </se:LineSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name> 100.0000 - 150.0000 Km/H</se:Name>
+          <se:Name> 100 - 150 Km/H</se:Name>
           <se:Description>
-            <se:Title> 100.0000 - 150.0000 Km/H</se:Title>
+            <se:Title> 100 - 150 Km/H</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
@@ -58,9 +58,9 @@
           </se:LineSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name> 150.0000 - 200.0000 Km/H</se:Name>
+          <se:Name> 150 - 200 Km/H</se:Name>
           <se:Description>
-            <se:Title> 150.0000 - 200.0000 Km/H</se:Title>
+            <se:Title> 150 - 200 Km/H</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
@@ -84,9 +84,9 @@
           </se:LineSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name> 200.0000 - 250.0000 Km/H</se:Name>
+          <se:Name> 200 - 250 Km/H</se:Name>
           <se:Description>
-            <se:Title> 200.0000 - 250.0000 Km/H</se:Title>
+            <se:Title> 200 - 250 Km/H</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
@@ -110,9 +110,9 @@
           </se:LineSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name> 250.0000 - 300.0000 Km/H</se:Name>
+          <se:Name> 250 - 300 Km/H</se:Name>
           <se:Description>
-            <se:Title> 250.0000 - 300.0000 Km/H</se:Title>
+            <se:Title> 250 - 300 Km/H</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>

@@ -117,7 +117,7 @@
                   <se:SvgParameter name="fill">#bd0026</se:SvgParameter>
                 </se:Fill>
               </se:Mark>
-              <se:Size>32</se:Size>
+              <se:Size>40</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
