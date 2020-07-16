@@ -56,29 +56,6 @@ var geschwSource = new TileWMS({
 sourceList.push(geschwSource);
 
 
-
-function createLegends(){
-var resolution = map.getView().getResolution();
-	 sourceList.forEach(a => {
-		
-		var x = document.createElement("IMG");
-		x.src = a.getLegendUrl(resolution);
-		
-		 var layer = JSON.stringify(a.getParams());
-		 x.title= JSON.stringify(a.getParams());
-		 x.alt= JSON.stringify(a.getParams());
-		 document.getElementById("legends").appendChild(x);
-	});
-}
-
-
-
-//Start View
-var view = new View({
-	center: fromLonLat([13.06, 52.52]),
-	zoom: 6
-
-})
 //OpenRailWayMap
 var openrailwaymap = new TileLayer({
 	title: 'OpenRailwayMap',
@@ -92,6 +69,8 @@ var openrailwaymap = new TileLayer({
 	})
 })
 
+
+//All TileLayer
 var osm = new TileLayer({
 	title: 'OpenStreetMap',
 	source: new OSM()
@@ -112,7 +91,7 @@ var co2Rail = new TileLayer({
 
 })
 var noxKGRail = new TileLayer({
-	title: 'Nox Ausstoß aus dem dieselbetriebenen Schienenverkehr (Stand 2014)',
+	title: 'Nox Ausstoß dieselbetriebenen Schienenverkehr(Stand 2014)',
 	source: noxSource,
 	minZoom: 5,
 	opacity: 0.6,
@@ -133,6 +112,16 @@ var geschNutzung = new TileLayer({
 	visible: false
 });
 
+
+
+
+//Start View
+var view = new View({
+	center: fromLonLat([13.06, 52.52]),
+	zoom: 6
+
+})
+
 const map = new Map({
 	target: 'map',
 	layers: [osm,openrailwaymap,co2Rail,noxKGRail,basicNutzung,elektrNutzung,geschNutzung],
@@ -145,16 +134,23 @@ var layerSwitcher = new LayerSwitcher({
 	tipLabel: 'Légende',
 	groupSelectStyle: 'none' 
 });
+
 layerSwitcher.useLegendGraphics = true;
 map.addControl(layerSwitcher);
 
+function createLegends(){
+var resolution = map.getView().getResolution();
+	 sourceList.forEach(a => {
+		
+		var x = document.createElement("IMG");
+		x.src = a.getLegendUrl(resolution);
+		
+		 var layer = JSON.stringify(a.getParams());
+		 x.title= JSON.stringify(a.getParams());
+		 x.alt= JSON.stringify(a.getParams());
+		 document.getElementById("legends").appendChild(x);
+	});
+}
+
 createLegends();
 
-map.on('change:view', function(event) {
-	console.log(event.target);
-var pixel = event.getEventPixel(event);
-var coord = getEventCoordinate(event);
-
-//var url = getFeatureInfoUrl(coord,event.target.getResolution(),event.target.
-
-});

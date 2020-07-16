@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.30)  12 JUL 2020 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.30)  16 JUL 2020 12:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,14 +877,14 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
 * v-part:(T,H,B)=(99.58464pt, 581.57433pt, 113.81102pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=472.03123pt
+* \textwidth=443.57848pt
 * \textheight=581.57433pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
 * \topmargin=-9.68535pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -961,7 +961,28 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(./main.bbl)
+(./main.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'nox':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'dbgeodaten':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Luftschadstoffkataster':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'geoserver':
+(biblatex)                - Invalid format of field 'urldate'.
+
+)
 Package biblatex Info: Reference section=0 on input line 23.
 Package biblatex Info: Reference segment=0 on input line 23.
 \c__siunitx_mathsf_int=\count407
@@ -1020,46 +1041,149 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- (./chapters/Einleitung.tex
-[1]) (./chapters/Datenbeschaffung.tex) (./chapters/Geoserver.tex)
-(./chapters/Webapp.tex) (./chapters/Fazit.tex) (./main.lol)
-\tf@lol=\write6
-\openout6 = `main.lol'.
+ [1]
+(./chapters/Einleitung.tex) (./chapters/Datenbeschaffung.tex [2]
 
- (./main.lof)
-\tf@lof=\write7
-\openout7 = `main.lof'.
+LaTeX Warning: Citation 'geodaten' on page 3 undefined on input line 9.
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 14.
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 14.
+) (./chapters/Geoserver.tex [3]
+[4]
+<images/save_styling.png, id=25, 751.80875pt x 573.14125pt>
+File: images/save_styling.png Graphic file (type png)
+<use images/save_styling.png>
+Package pdftex.def Info: images/save_styling.png  used on input line 19.
+(pdftex.def)             Requested size: 221.78923pt x 169.0752pt.
+<images/StyleXML.png, id=27, 829.0975pt x 446.66875pt>
+File: images/StyleXML.png Graphic file (type png)
+<use images/StyleXML.png>
+Package pdftex.def Info: images/StyleXML.png  used on input line 26.
+(pdftex.def)             Requested size: 221.78923pt x 119.4844pt.
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Empty bibliography on input line 57.
+[5 <./images/save_styling.png>]
+<images/legend_g.png, id=32, 120.45pt x 100.375pt>
+File: images/legend_g.png Graphic file (type png)
+<use images/legend_g.png>
+Package pdftex.def Info: images/legend_g.png  used on input line 36.
+(pdftex.def)             Requested size: 133.07489pt x 110.90599pt.
+ [6 <./images/StyleXML.png> <./images/legend_g.png (PNG copy)>]
+<images/Raster_Input.png, id=38, 1157.32375pt x 722.7pt>
+File: images/Raster_Input.png Graphic file (type png)
+<use images/Raster_Input.png>
+Package pdftex.def Info: images/Raster_Input.png  used on input line 47.
+(pdftex.def)             Requested size: 221.78923pt x 138.49437pt.
+<images/Marker_Border.png, id=39, 789.95125pt x 614.295pt>
+File: images/Marker_Border.png Graphic file (type png)
+<use images/Marker_Border.png>
+Package pdftex.def Info: images/Marker_Border.png  used on input line 55.
+(pdftex.def)             Requested size: 177.43205pt x 137.97607pt.
+<images/Marker_noBorder.png, id=40, 791.95876pt x 609.27625pt>
+File: images/Marker_noBorder.png Graphic file (type png)
+<use images/Marker_noBorder.png>
+Package pdftex.def Info: images/Marker_noBorder.png  used on input line 60.
+(pdftex.def)             Requested size: 177.43205pt x 136.49553pt.
 
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 53--63
+[][] [] 
+ []
+
+<images/zeichenreihenfolge.png, id=41, 1033.8625pt x 597.23125pt>
+File: images/zeichenreihenfolge.png Graphic file (type png)
+<use images/zeichenreihenfolge.png>
+Package pdftex.def Info: images/zeichenreihenfolge.png  used on input line 72.
+(pdftex.def)             Requested size: 221.78923pt x 128.1197pt.
+[7 <./images/Raster_Input.png> <./images/Marker_Border.png> <./images/Marker_no
+Border.png>]) (./chapters/Webapp.tex [8 <./images/zeichenreihenfolge.png>]
+[9]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 66.
+) [10] (./chapters/Ergebnisse.tex
+<images/defaultview.png, id=60, 1209.51875pt x 647.41875pt>
+File: images/defaultview.png Graphic file (type png)
+<use images/defaultview.png>
+Package pdftex.def Info: images/defaultview.png  used on input line 8.
+(pdftex.def)             Requested size: 399.21791pt x 213.68835pt.
+ [11 <./images/defaultview.png>]
+<images/Analyse1.png, id=65, 1189.44376pt x 636.3775pt>
+File: images/Analyse1.png Graphic file (type png)
+<use images/Analyse1.png>
+Package pdftex.def Info: images/Analyse1.png  used on input line 19.
+(pdftex.def)             Requested size: 310.50357pt x 166.12425pt.
+<images/Analyse3.png, id=66, 1200.485pt x 639.38875pt>
+File: images/Analyse3.png Graphic file (type png)
+<use images/Analyse3.png>
+Package pdftex.def Info: images/Analyse3.png  used on input line 26.
+(pdftex.def)             Requested size: 310.50357pt x 165.3786pt.
+<images/Analyse2.png, id=67, 1189.44376pt x 618.31pt>
+File: images/Analyse2.png Graphic file (type png)
+<use images/Analyse2.png>
+Package pdftex.def Info: images/Analyse2.png  used on input line 35.
+(pdftex.def)             Requested size: 310.50357pt x 161.40779pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./chapters/Installationsanleitung.tex [12 <./images/Analyse1.png> <./images/
+Analyse3.png>] [13 <./images/Analyse2.png>]
+Overfull \hbox (0.42055pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [14] (./main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ [15]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 63.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 
 Package caption Warning: Unused \captionsetup[subcaption] on input line 18.
 See the caption package documentation for explanation.
 
-[2] (./main.aux)
+[16] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23621 strings out of 492982
- 452312 string characters out of 6134896
- 681715 words of memory out of 5000000
- 26924 multiletter control sequences out of 15000+600000
- 601677 words of font info for 64 fonts, out of 8000000 for 9000
+ 24233 strings out of 492982
+ 461442 string characters out of 6134896
+ 697747 words of memory out of 5000000
+ 27509 multiletter control sequences out of 15000+600000
+ 615900 words of font info for 72 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 42i,6n,40p,10376b,1614s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
-public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (3 pages, 152525 bytes).
+ 42i,9n,45p,10376b,1614s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmtt10.pfb>
+Output written on main.pdf (17 pages, 5324067 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

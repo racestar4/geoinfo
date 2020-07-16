@@ -1,0 +1,37 @@
+\section{Installationsanleitung}
+Dies ist eine Installationsanleitung für Ubuntu 18.04.
+\subsection{Git Verzeichnis clonen oder ZIP Download}
+Das Git Projekt clonen oder als Zip-Downloaden.
+Über Github kann das Projekt als ZIP oder über Git clone heruntergeladen werden.
+
+Im Repository ist der geoserver und die geoinfoweb Verzeichnise. 
+
+\subsection{Pfade setzen}
+Den JAVAHOME Pfad zu der installieren Java Umgebung setzen.
+Den GEOSERVERHOME Pfad zu dem beigefügtem Geoserver setzen.
+
+Als Ubuntu-Beispiel (Pfade können abweichen) :
+\begin{lstlisting}[frame=single,basicstyle=\small]
+echo "export GEOSERVER_HOME=entpackterPfad/geoinfo/geoserver" >>/etc/environment
+echo "JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64" >>/etc/environment
+\end{lstlisting}
+
+
+\subsection{Start GeoServer und Frontend}
+Sind die beiden Home Pfade gesetzt kann man in den ../geoserver/bin Ordner wechseln und die startup.sh ausführen.
+
+
+Nun sollte der Geoserver auf localhost:8080 erreichbar sein.
+Der Login kann über den Standard User : admin
+PW: geoserver erfolgen.
+
+
+Um das Frontend zum laufen zu bekommen muss man in den "geoinfoweb" Ordner des Repository wechseln.
+ NPM muss für die folgenden Schritte installiert sein
+Dann führt man die folgenden Befehle aus.
+\begin{lstlisting}[frame=single,basicstyle=\small]
+1. npm init
+2. npm start
+\end{lstlisting}
+ "Npm start" kompiliert das Frontend und deployed es auf "http://localhost:1234/"
+ 

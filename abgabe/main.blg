@@ -17,47 +17,62 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main-blx.bib
+Database file #2: main.bib
+"{" immediately follows a field name---line 24 of file main.bib
+ :  title
+ :       {{OpenLayers LayerSwitcher}},
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 40 of file main.bib
+ :  url
+ :     {{https://www.bahn.de/p/view/service/zug/fahrzeuge/ice_3.shtml}},
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 47 of file main.bib
+ :  url
+ :     {{https://www.welt.de/reise/deutschland/article201158974/Marschbahn-nach-Sylt-Die-Katastrophenstrecke-ist-ein-Risiko.html}},
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "geodaten"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 1 entry,
+You've used 8 entries,
             6268 wiz_defined-function locations,
-            1177 strings with 8552 characters,
-and the built_in function-call counts, 1205 in all, are:
-= -- 58
-> -- 52
-< -- 1
-+ -- 37
-- -- 22
-* -- 24
-:= -- 275
+            1205 strings with 9180 characters,
+and the built_in function-call counts, 27931 in all, are:
+= -- 1283
+> -- 1403
+< -- 174
++ -- 1007
+- -- 883
+* -- 1429
+:= -- 2821
 add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 0
-chr.to.int$ -- 30
-cite$ -- 0
-duplicate$ -- 11
-empty$ -- 87
-format.name$ -- 0
-if$ -- 266
+call.type$ -- 8
+change.case$ -- 47
+chr.to.int$ -- 114
+cite$ -- 14
+duplicate$ -- 2619
+empty$ -- 2750
+format.name$ -- 313
+if$ -- 5519
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 18
 missing$ -- 0
-newline$ -- 20
-num.names$ -- 0
-pop$ -- 40
+newline$ -- 138
+num.names$ -- 278
+pop$ -- 2373
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 68
 quote$ -- 0
-skip$ -- 67
+skip$ -- 1111
 stack$ -- 0
-substring$ -- 110
-swap$ -- 1
-text.length$ -- 14
+substring$ -- 2025
+swap$ -- 685
+text.length$ -- 173
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 22
+type$ -- 260
 warning$ -- 0
-while$ -- 45
+while$ -- 285
 width$ -- 0
-write$ -- 20
+write$ -- 131
+(There were 3 error messages)

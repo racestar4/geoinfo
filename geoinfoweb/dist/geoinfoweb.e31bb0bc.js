@@ -61610,25 +61610,7 @@ var geschwSource = new _TileWMS.default({
   serverType: 'geoserver',
   crossOrigin: 'anonymous'
 });
-sourceList.push(geschwSource);
-
-function createLegends() {
-  var resolution = map.getView().getResolution();
-  sourceList.forEach(function (a) {
-    var x = document.createElement("IMG");
-    x.src = a.getLegendUrl(resolution);
-    var layer = JSON.stringify(a.getParams());
-    x.title = JSON.stringify(a.getParams());
-    x.alt = JSON.stringify(a.getParams());
-    document.getElementById("legends").appendChild(x);
-  });
-} //Start View
-
-
-var view = new _ol2.View({
-  center: (0, _proj.fromLonLat)([13.06, 52.52]),
-  zoom: 6
-}); //OpenRailWayMap
+sourceList.push(geschwSource); //OpenRailWayMap
 
 var openrailwaymap = new _Tile.default({
   title: 'OpenRailwayMap',
@@ -61640,7 +61622,8 @@ var openrailwaymap = new _Tile.default({
     maxZoom: 19,
     opaque: true
   })
-});
+}); //All TileLayer
+
 var osm = new _Tile.default({
   title: 'OpenStreetMap',
   source: new _OSM.default()
@@ -61658,7 +61641,7 @@ var co2Rail = new _Tile.default({
   visible: false
 });
 var noxKGRail = new _Tile.default({
-  title: 'Nox Ausstoß aus dem dieselbetriebenen Schienenverkehr (Stand 2014)',
+  title: 'Nox Ausstoß dieselbetriebenen Schienenverkehr(Stand 2014)',
   source: noxSource,
   minZoom: 5,
   opacity: 0.6,
@@ -61675,6 +61658,11 @@ var geschNutzung = new _Tile.default({
   source: geschwSource,
   minZoom: 5,
   visible: false
+}); //Start View
+
+var view = new _ol2.View({
+  center: (0, _proj.fromLonLat)([13.06, 52.52]),
+  zoom: 6
 });
 var map = new _ol2.Map({
   target: 'map',
@@ -61688,12 +61676,20 @@ var layerSwitcher = new _olLayerswitcher.default({
 });
 layerSwitcher.useLegendGraphics = true;
 map.addControl(layerSwitcher);
+
+function createLegends() {
+  var resolution = map.getView().getResolution();
+  sourceList.forEach(function (a) {
+    var x = document.createElement("IMG");
+    x.src = a.getLegendUrl(resolution);
+    var layer = JSON.stringify(a.getParams());
+    x.title = JSON.stringify(a.getParams());
+    x.alt = JSON.stringify(a.getParams());
+    document.getElementById("legends").appendChild(x);
+  });
+}
+
 createLegends();
-map.on('change:view', function (event) {
-  console.log(event.target);
-  var pixel = event.getEventPixel(event);
-  var coord = getEventCoordinate(event); //var url = getFeatureInfoUrl(coord,event.target.getResolution(),event.target.
-});
 },{"ol/ol.css":"node_modules/ol/ol.css","ol":"node_modules/ol/index.js","ol/layer/Tile":"node_modules/ol/layer/Tile.js","ol/source/OSM":"node_modules/ol/source/OSM.js","ol/proj":"node_modules/ol/proj.js","ol/source/TileWMS":"node_modules/ol/source/TileWMS.js","ol/source/ImageWMS":"node_modules/ol/source/ImageWMS.js","ol/source/XYZ":"node_modules/ol/source/XYZ.js","ol/source/Source":"node_modules/ol/source/Source.js","ol/format/WMSGetFeatureInfo":"node_modules/ol/format/WMSGetFeatureInfo.js","ol/source/Vector":"node_modules/ol/source/Vector.js","ol/loadingstrategy":"node_modules/ol/loadingstrategy.js","ol/style":"node_modules/ol/style.js","ol-layerswitcher/":"node_modules/ol-layerswitcher/dist/ol-layerswitcher.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -61722,7 +61718,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42643" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37449" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -100,10 +100,10 @@
 }
 .ol-control {
   position: absolute;
-  right: 20px;
+  right: 0px;
   background-color: rgba(255,255,255,0.4);
-  border-radius: 4px;
-  padding: 2px;
+  border-radius: 1px;
+  padding: 1px;
 }
 .ol-control:hover {
   background-color: rgba(255,255,255,0.6);

@@ -1,7 +1,7 @@
 \documentclass{article}
 
 
-\usepackage[left=2.5cm,right=2.5cm,top=3.5cm,bottom=4cm]{geometry}
+\usepackage[left=3cm,right=3cm,top=3.5cm,bottom=4cm]{geometry}
 
 \usepackage{ucs}
 \usepackage[ngerman]{babel}
@@ -18,7 +18,7 @@
 \captionsetup[subcaption]{list=true}
 
 \usepackage[backend=bibtex,sorting=none]{biblatex}
-
+\addbibresource{main.bib}
 
 \begin{document}
 
@@ -46,13 +46,19 @@
 \tableofcontents
 \pagebreak
 \input{chapters/Einleitung}
+\pagebreak
 \input{chapters/Datenbeschaffung}
+\pagebreak
 \input{chapters/Geoserver}
+\pagebreak
 \input{chapters/Webapp}
-\input{chapters/Fazit}
-\addcontentsline{toc}{chapter}{Listings}
-\lstlistoflistings
-\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+\pagebreak
+\input{chapters/Ergebnisse}
+\pagebreak
+\input{chapters/Installationsanleitung}
+\pagebreak
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
 \listoffigures
+\pagebreak
 \printbibliography
 \end{document}

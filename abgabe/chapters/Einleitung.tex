@@ -1,4 +1,14 @@
 \section{Einleitung}
+Die Schadstoffemissionen sind in den letzten Jahren in Deutschland angestiegen, deshalb gibt es mittlerweile auch Dieselfahrverbote in einigen Städten Deutschlands.\cite{nox}
+Auch der Schienenverkehr ist an dem Anstieg der Emission nicht ganz unbeteiligt. Durch die nicht flächendeckende Elektrifizierung des Streckennetztes stößt auch die Deutsche Bahn mit dieselbetriebenen Person und -Güterverkehr reichlich Stickoxide auch NOX genannt in die Luft. Auch der CO2 Ausstoß sämtlicher Antriebe der Deutschen Bahn ist beachtlich. Anhand des Opendata Portals der Deutschen Bahn \cite{dbgeodaten} können Daten zum Streckennetz und zur Umweltbelastung entnommen werden.
+
+\subsection{Zielstellung}
+Die folgende Arbeit soll das Deutsche Schienennetz aus dem opendata Bereich der Deutsche Bahn visualisieren. Zudem soll das Schienennetz in anbetracht der Schadstoffemissionen des Zugverkehrs aufzeigen an welchen Orten in Deutschland  hohe Emmisionsbelastung im Jahr 2014 entstanden sind. Es gilt aufzuarbeiten welche Gründe ein erhöhter Emissionswert also Stickoxid oder CO2 Ausstoß an einer bestimmten Stelle in Deutschland hat. Dies kann eine nicht elektrifizerte Streckenabschnitt oder eine erhöhte Belastung zum Beispiel in Dichtbesiedelten Gebieten sein. Diese Fragestellung soll durch eine Visualisierung des Streckennetz und der Emissionen beantwortet werden.
 
 
-Visualisierung ermöglichen die das Streckennetz der Deutschen Bahn in Einklang mit dem Schadstoff Ausstoß des schienenverkerhs in Einklang bringt. Zusätzlich soll diese Arbeit anhand der Daten aufzeigen wie wenig Strecken innerhalb Deutschlands auf hohe Geschwindigkeiten ausgelegt sind.
+Zusätzlich wird das Schienennetz auf Geschwindigkeit untersucht, also es gilt auszuarbeiten, welche Abschnitte für zum Beispiel den ICE 3 mit einer Höchstgeschwindigkeit von 300 km/h ausgerichtet sind.\cite{ice3}
+
+
+\subsection{Architektur }
+Die Architektur ist sehr simpel gehalten. Es gibt einen Geoserver der in seinem Datenverzeichnis zugriff auf die Shape-Files und die dazugehörigen Attribute hat.
+Als Frontend wird Javascript mit der Openlayer-Bibliothek verwendent.

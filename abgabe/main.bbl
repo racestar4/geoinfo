@@ -16,5 +16,124 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}\enddatalist
+\datalist[entry]{none/global//global/global}
+  \entry{nox}{online}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={{Bund Friends of the Earth Germany}},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Dieselfahrzeuge: Gesundheitsgefahren durch Stickoxide}}
+    \verb{url}
+    \verb {https://www.bund.net/themen/mobilitaet/schadstoffe/stickoxide/}
+    \endverb
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{dbgeodaten}{online}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{Deutsche Bahn}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Open-Data-Portal}}
+    \verb{url}
+    \verb { https://data.deutschebahn.com/dataset/geo-strecke}
+    \endverb
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{ice3}{online}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{Deutsche Bahn}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{ICE 3: Der Schnelle}}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Luftschadstoffkataster}{online}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{Deutsche Bahn}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Luftschadstoffkataster}
+    \verb{url}
+    \verb {https://data.deutschebahn.com/dataset/luftschadstoffkataster}
+    \endverb
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{geoserver}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={{Open Source Geospatial Foundation}},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Geoserver}
+    \verb{url}
+    \verb {http://geoserver.org}
+    \endverb
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{layerswitcher}{online}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={{Matt Walker}},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+  \endentry
+
+  \entry{marschbahn}{online}{}
+    \name{author}{1}{}{%
+      {{hash=w}{%
+         family={{welt.de}},
+         familyi={w\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{w1}
+    \strng{fullhash}{w1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Das ist Deutschlands chaotischste, störungsanfälligste
+  Bahnstrecke }}
+    \field{year}{2020}
+  \endentry
+\enddatalist
 \endinput

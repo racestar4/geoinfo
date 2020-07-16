@@ -12,6 +12,7 @@ rm main.log
 
 pdflatex -draftmode -interaction nonstopmode main.tex >/dev/null
 bibtex main >/dev/null
+bibtex main >/dev/null
 pdflatex -interaction nonstopmode main.tex >/dev/null
 pdflatex -interaction nonstopmode main.tex
 rm /var/www/html/jbock/abgabe/main.pdf

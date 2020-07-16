@@ -1,17 +1,27 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Einleitung}{2}
-\contentsline {section}{\numberline {2}Datenbeschaffung}{2}
-\contentsline {subsection}{\numberline {2.1}Beschreibung der Daten}{2}
-\contentsline {subsubsection}{\numberline {2.1.1}Streckennetz}{2}
-\contentsline {subsubsection}{\numberline {2.1.2}Schadstoffdaten}{2}
-\contentsline {subsection}{\numberline {2.2}Aufbereitung der Daten}{2}
-\contentsline {section}{\numberline {3}Aufsetzen eines Geoservers}{2}
-\contentsline {subsection}{\numberline {3.1}Einrichtung}{2}
-\contentsline {subsection}{\numberline {3.2}Styling}{2}
-\contentsline {section}{\numberline {4}Webapp mit Openlayer}{2}
-\contentsline {subsection}{\numberline {4.1}WMS Server}{2}
-\contentsline {subsection}{\numberline {4.2}Legende Anzeige}{2}
-\contentsline {section}{\numberline {5}Fazit}{2}
-\contentsline {chapter}{Listings}{2}
-\contentsline {chapter}{Abbildungsverzeichnis}{2}
+\contentsline {subsection}{\numberline {1.1}Zielstellung}{2}
+\contentsline {subsection}{\numberline {1.2}Architektur }{2}
+\contentsline {section}{\numberline {2}Datenbeschaffung}{3}
+\contentsline {subsection}{\numberline {2.1}Beschreibung der Daten}{3}
+\contentsline {subsubsection}{\numberline {2.1.1}Streckennetz}{3}
+\contentsline {subsubsection}{\numberline {2.1.2}Schadstoffdaten}{3}
+\contentsline {subsection}{\numberline {2.2}Aufbereitung der Daten}{4}
+\contentsline {section}{\numberline {3}Aufsetzen eines Geoservers und Einpflegen der Daten}{5}
+\contentsline {subsection}{\numberline {3.1}Installation}{5}
+\contentsline {subsection}{\numberline {3.2}Integration der Daten}{5}
+\contentsline {subsection}{\numberline {3.3}Methode zum Styling der Layer}{5}
+\contentsline {subsubsection}{\numberline {3.3.1}Styling der Polygonlinien}{6}
+\contentsline {subsubsection}{\numberline {3.3.2}Styling der Schadstoffemissionen}{7}
+\contentsline {section}{\numberline {4}Webapp mit Openlayer}{9}
+\contentsline {subsection}{\numberline {4.1}WMS Service}{9}
+\contentsline {subsection}{\numberline {4.2}Legende Anzeige}{10}
+\contentsline {section}{\numberline {5}Ergebnisse}{11}
+\contentsline {subsection}{\numberline {5.1}Webansicht}{11}
+\contentsline {subsection}{\numberline {5.2}Datenanalyse}{12}
+\contentsline {section}{\numberline {6}Installationsanleitung}{14}
+\contentsline {subsection}{\numberline {6.1}Git Verzeichnis clonen oder ZIP Download}{14}
+\contentsline {subsection}{\numberline {6.2}Pfade setzen}{14}
+\contentsline {subsection}{\numberline {6.3}Start GeoServer und Frontend}{14}
+\contentsline {section}{Abbildungsverzeichnis}{15}
