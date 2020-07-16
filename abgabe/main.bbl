@@ -70,6 +70,24 @@
     \field{year}{2020}
   \endentry
 
+  \entry{openlayer}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={{Openlayers.org}},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O2}
+    \strng{fullhash}{O2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{OpenLayers}}
+    \verb{url}
+    \verb {https://openlayers.org/}
+    \endverb
+    \field{year}{2020}
+  \endentry
+
   \entry{Luftschadstoffkataster}{online}{}
     \name{author}{1}{}{%
       {{hash=D}{%

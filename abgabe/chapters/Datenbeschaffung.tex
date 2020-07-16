@@ -1,14 +1,11 @@
 \section{Datenbeschaffung}
-
 Die Grunddaten stammen von \cite{dbgeodaten}. Auf diesem Portal sind die Streckendaten von 2014 bis ins Jahr 2019 hinterlegt. Zusätzlich gibt es dort zu verschiedenen Themen wie Logistik, Business und Umwelt Datensätzen in Bezug zur Deutschen Bahn in verschiedenen Formaten. Die Datensätze werden unter der Lizenz Creative Commons Attribution 4.0 bereitgestellt.
-
 Zusätzlich stellt die Deutsche Bahn dort Apis zur Verfügung, wie zum Beispiel Parkrauminformationen zu Parkeinrichtungen an Bahnhöfen.
 \subsection{Beschreibung der Daten}
 \subsubsection{Streckennetz}
-
-Die Daten für das Streckennetz 2019 wurden vom Geoportal heruntergeladen. \cite{geodaten}
+Die Daten für das Streckennetz 2019 wurden vom Geoportal heruntergeladen. \cite{dbgeodaten}
 Diese Daten sind als Shapefile, CSV und Excel verfügbar. Dazu gibt es noch MapInfoRelationen die auch in mehreren Formaten vorliegen.
-
+\\\\
 In der dazugehörigen PDF Daten erhält man die Beschreibung der beinhaltenden Attribute.
 \begin{itemize}
 	\item MIFCode MapInfo Internes Object
@@ -22,7 +19,6 @@ In der dazugehörigen PDF Daten erhält man die Beschreibung der beinhaltenden A
 	\item Geschwindigkeit - in Km/h
 	\item Geographische Koordinaten als Polygonlinie
 \end{itemize}
-
 Die Daten dieser Streckenabschnitte sind auf Basis des Koordinatenreferenzsystem EPSG:4326 oder anders genannt WGS84.
 \subsubsection{Schadstoffdaten}
 In diesem Projekt wird auf zwei Datenquellen zugegriffen. 
@@ -30,12 +26,9 @@ In diesem Projekt wird auf zwei Datenquellen zugegriffen.
 	\item Um die Stickoxide(NOX) bearbeiten zu können wird der Datensatz Luftschadstoffkataster von dem OpenData Bereich der Deutschen Bahn genommen.
 Dies ist ein Auszug aus dem Bahn-Emissionskatasters Schienenverkehr (BEKS). \cite{Luftschadstoffkataster}Und sind in lokaler Auflösung als 2500 Meter Rastersummenwerte bereitgestellt.
 Jeder Rasterwert hat die Attribute Stickoix-Emissionen und Partikel Emissionen. Die Daten sind in Kg/Jahr angegeben. 
-
 \item Für den CO2 Ausstoß werden die Daten ebenfalls als Auszug aus dem Bahn-Emissionskatasters Schienenverkehr bereitgestellt. Die Daten sind auch in Rasterform und in Kg/Jahr dargestellt.
-
 \end{itemize}
 \subsection{Aufbereitung der Daten}
-
 Um die Daten gut verarbeiten zu können wurden kleinere Verbesserungen erledigt. Um die Höchstgeschwindigkeit eines Streckenabschnittes abstufend darstellen zu können, musste aus dem vorherigen 'String' Attribut eine Number erzeugt werden.
 Ein Beispiel Attribut für den Geschwindigkeitswert war "von 50 bis 100 km/h"
 Um eine fehlerfrei Abstufung zu ermöglichen wurde über den Feldrechner in QGis mithilfe der Stringoperation "Substring" die hintere Zahl extrahiert.

@@ -1,25 +1,20 @@
 \section{Webapp mit Openlayer}
-
 Die Webapplikation wurde in HTML und Javascript programmiert. 
 Als Dependencymanagementsystem wurde NPM benutzt.
 Für das Deployment wurde der Webapplikations Bundler Parcel genutzt. Dieser Budnler deployed die Webapplikation standartmäßig auf Localhost mit dem Port 1234.
-
-
+\\\\
 Für dieses Projekt wurde die Openlayer Version 6.3.1 verwendet.
 Auf der HTML Seite ist eine Map und ein Title integriert.
 Darunter sind alle Legenden der Layer als einzelne Bilder dargestellt.
-
-
+\\\\
 Als Kartenhintergrund wurde Openstreetmap gewählt. Dies soll die Visualisierung der Streckenabschnitte unterstützen, um zum Beispiel zu erkennen welcher lokale Abschnitt nicht als elektrifiziert gekennzeichnet ist.
 Zusätzlich wurde das aktuelle online verfügbare Openrailwaymap als Layer verfügbar gemacht.
-
+\\\\
 Darüber werden dann die Layer gelegt die den Schadstoffausstoß visualisieren.
 Die Oberste Schicht bilden dann die Layer die das Streckennetzabbilden.
-
 Um eine erste übersichtliche Darstellung zu ermöglichen sind nur die Layer von Openstreetmap und der Bahnnutzunglayer aktiviert.
 Die erste vordefinierte View ist auf Deutschland zentriert.
 Die initialisierte Map sieht wie folgt aus.
-
 \begin{lstlisting}[frame=single,basicstyle=\small]
 const map = new Map({
         target: 'map',
@@ -29,8 +24,6 @@ const map = new Map({
         view: view
 });
 \end{lstlisting}
-
-
 Alle Layer sind über den integrierten LayerSwitcher aus/einschaltbar.
 Der LayerSwitcher ist eine Community Erweiterung für Openlayer. \cite{layerswitcher}. Er ist als MapControl Objekt zur Map hinzuzufügen.
 \begin{lstlisting}[frame=single,basicstyle=\small]
@@ -42,10 +35,7 @@ var layerSwitcher = new LayerSwitcher({
 layerSwitcher.useLegendGraphics = true;
 map.addControl(layerSwitcher);
 \end{lstlisting}
-
-
 \subsection{WMS Service}
-
 Um die Layer in diese Webapplikations zu integrieren wird der WebMapServer vom Geoserver angesprochen.
 Dafür wird das TileWMS Objekt genutzt.
 \begin{lstlisting}[frame=single,basicstyle=\small]
@@ -58,9 +48,7 @@ var wmsSource = new TileWMS({
 \end{lstlisting}
 Es wird auf die URL des WMS Service zugegriffen mit dem entsprechenden Layer den man laden möchte.
 Es wurde sich entschieden alle Layer als 'Tiled' Layer anzuzeigen, so ist es möglich nur die relevanten Layerinformationen zu laden, um performance zu sparen.
-
 Um nun aus dem TileWMS einen layer zu machen, wird ein neues TileLayer Objekt erzeugt.
-
 \begin{lstlisting}[frame=single,basicstyle=\small]
 var basicNutzung = new TileLayer({
         title: 'Bahnnutzungsarten (DB-Daten 2019)',
@@ -68,18 +56,14 @@ var basicNutzung = new TileLayer({
         minZoom: 5
 });
 \end{lstlisting}
-
 Es wurde für alle Layer ein Titel deklariert, der so in den LayerSwitcher übernommen wird. Eine mindest Zoom Stufe wurde angegeben, um den Layer nur anzuzeigen wenn man auch nah genug auf ihn gezoomt hat, um performance zu sparen.
-
+\\\\
 Auf diese Weise wurden alle Layer mit Polygonlinien eingebunden.
 Die Layer für die Schadstoffemissionen CO2 und NOX wurden zusätzlich noch mit einem Opacity wert von 0.6 parametrisiert, um nicht den Openstreetmap layer komplett zu überlagern. 
 
 \subsection{Legende Anzeige}
 Um dem Nutzer ständig zu informieren, welche Farbe eines Layers welche Information bedeutet, werden die Legenden aus den Layer-Styles generiert.
-
 Dazu werden alle erstellten TileWMS in ein Array hinzugefügt und dann wird beim Laden der Seite, auf die LegendUrl der einen Quellen zugegriffen. Diese liefern Bilder der Legendenbeschreibung zurück. Die erhaltenen Bilder werden in ein HTML-div Element angehängt.
-
-
 \begin{lstlisting}[frame=single,basicstyle=\small]
 function createLegends(){
 var resolution = map.getView().getResolution();
